@@ -19,7 +19,7 @@ s.source = { :git => "https://github.com/capitanBOBO/KZHorizontalPicker.git",
 
 s.framework = "UIKit"
 
-s.source_files = "KZHorizontalPicker/**/"
+s.source_files = "KZHorizontalPicker/**/*.{swift}"
 
 s.swift_version = "5.1"
 
