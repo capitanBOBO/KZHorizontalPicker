@@ -12,14 +12,14 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 
 s.author = { "Ivan Savin" => "savin.capitanbobo@gmail.com" }
 
-s.homepage = "https://github.com/capitanBOBO"
+s.homepage = "https://github.com/capitanBOBO/KZHorizontalPicker"
 
 s.source = { :git => "https://github.com/capitanBOBO/KZHorizontalPicker.git", 
              :tag => "#{s.version}" }
 
 s.framework = "UIKit"
 
-s.source_files = "KZHorizontalPicker/**/*.{swift}"
+s.source_files = "KZHorizontalPicker/**/"
 
 s.swift_version = "5.1"
 
