@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053FEE6923CE232B009BA42B /* CollectionViewParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053FEE6823CE232B009BA42B /* CollectionViewParts.swift */; };
 		05D1CB1B23CE14FE00260951 /* KZHorizontalPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D1CB1923CE14FE00260951 /* KZHorizontalPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		053FEE6823CE232B009BA42B /* CollectionViewParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewParts.swift; sourceTree = "<group>"; };
 		05D1CB1623CE14FE00260951 /* KZHorizontalPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KZHorizontalPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D1CB1923CE14FE00260951 /* KZHorizontalPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZHorizontalPicker.h; sourceTree = "<group>"; };
 		05D1CB1A23CE14FE00260951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				05D1CB1923CE14FE00260951 /* KZHorizontalPicker.h */,
 				05D1CB1A23CE14FE00260951 /* Info.plist */,
+				053FEE6823CE232B009BA42B /* CollectionViewParts.swift */,
 			);
 			path = KZHorizontalPicker;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					05D1CB1523CE14FE00260951 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053FEE6923CE232B009BA42B /* CollectionViewParts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		05D1CB1F23CE14FE00260951 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6BM7CD8DD6;
@@ -277,6 +283,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		05D1CB2023CE14FE00260951 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6BM7CD8DD6;
