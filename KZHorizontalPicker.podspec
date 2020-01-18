@@ -14,8 +14,7 @@ s.author = { "Ivan Savin" => "savin.capitanbobo@gmail.com" }
 
 s.homepage = "https://github.com/capitanBOBO/KZHorizontalPicker"
 
-s.source = { :git => "https://github.com/capitanBOBO/KZHorizontalPicker.git", :branch => "master", 
-             :tag => "#{s.version}" }
+s.source = { :git => "https://github.com/capitanBOBO/KZHorizontalPicker.git", :branch => "master" }
 
 s.framework = "UIKit"
 
